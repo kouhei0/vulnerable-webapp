@@ -1,0 +1,53 @@
+body {
+    background-color: #fcfcfc;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: black 1px solid;
+    padding: 8px;
+    max-width: 400px;
+}
+
+.form > div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.form label {
+    display: block;
+    width: 80px;
+}
+
+.form input[type="text"] {
+    width: 100%;
+}
+
+.form input[type="submit"] {
+    padding: 8px 16px;
+}
+
+.record {
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: #aaa 1px solid;
+}
+.record header {
+    display: flex;
+    gap: 8px;
+}
+
+.record address {
+    font-style: initial;
+}
+
+.record time {
+    color: #888;
+}
+
+.record div {
+    font-size: large;
+}
